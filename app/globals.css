@@ -2,6 +2,7 @@
 
 @theme inline {
   --font-sans: var(--font-dm-sans);
+  --font-heading: var(--font-manrope);
   --color-sand: #f5f1e9;
   --color-bronze: #9b846c;
   --color-gold: #d4a548;
@@ -11,6 +12,15 @@ body {
   background: #ffffff;
   color: #000000;
   font-family: var(--font-dm-sans), Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-manrope), Arial, Helvetica, sans-serif;
 }
 
 /* Einheitlicher Seiten-Container: max. 1440px (90rem) breit, mit Seitenabstand */
